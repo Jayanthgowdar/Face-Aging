@@ -1,0 +1,17 @@
+adv_weight: 2
+augment_rotation: 80
+batch_size: 3
+cycle_weight: 10
+domainA_dir: /Users/jayanth/Face-Aging/Face-Aging/FaceProcessed/trainA
+domainB_dir: /Users/jayanth/Face-Aging/Face-Aging/FaceProcessed/trainB
+epochs: 100
+gpus:
+- 1
+identity_weight: 7
+img_size: 256
+lr: 0.0001
+n_blocks: 9
+ndf: 32
+ngf: 32
+num_workers: 4
+weight_decay: 0.0001
